@@ -82,8 +82,10 @@ header {
   color: white;
 }
 #choice > button {
-    width: 40px;
+  display: flex-wrap;
+    width: 140px;
     height: 40px;
+    text-align: center;
     font-size: 30px;
     transition: all 0.2s ease-in-out;
     border: 2px solid gray;
