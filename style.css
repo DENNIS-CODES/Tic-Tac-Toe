@@ -193,6 +193,7 @@ mainBoard > div {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  align-items: center;
 }
 .fa:hover {
     opacity: 0.7;
