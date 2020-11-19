@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -23,79 +23,210 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
-line-height: 1;
+    line-height: 1;
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+    font-weight: 800;
+    background-color: #05fc95;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+*, *:before, after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
-body {
-  text-align: center;
-  font-family: 'grandstander', cursive;
-  font-weight: 800;
-  font-size: 40px;
-  background-color: #05fc95
-}
 header {
-  margin-top: 5vh;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color:#3F51B5;
-  flex-direction: column; 
-}
-#choice {
-  height: 20vh;
-  margin-top: 2rem;
+    margin-top: 5hv;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3F51B5;
+    flex-direction: column;
 }
 
 #title {
-  margin-bottom: 1rem;
-  color: white;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 30px;
 }
+
+/* Players Choice Style */
+#choice {
+    height: 10vh;
+    margin-top: 1rem;
+}
+
 #choice > button {
-  display: flex-wrap;
-    width: 140px;
+    width: 40px;
     height: 40px;
-    text-align: center;
     font-size: 30px;
     transition: all 0.2s ease-in-out;
     border: 2px solid gray;
     outline: none;
     border-radius: 10px;
 }
-#mainBoard > div:hover {
-  cursor: pointer;
-}
+
 #choice > button:hover {
-  background-color: #FF5733;
-  cursor: pointer;
+    background-color: #f06e57;
+    cursor: pointer;
+}
+/* Reset Button */
+#reset {
+    width: 100px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-family: 'Grandstander', cursive;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#reset:hover {
+    cursor: pointer;
+    background-color: #f06e57;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+#resetSec {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+/* Players Grid Board */
+#mainBoard {
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+#mainBoard > div {
+    outline: 5px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainBoard > div:hover {
+    cursor: pointer;
+}
+
+/* FOOTER */
+#footer {
+    position: relative;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: -20px;
+    z-index: 3;
+    color: rgb(8, 8, 8);
+}
+/* icons */
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    align-items: center;
+
+}
+.fa {
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ddd;
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.4em;
+    border-radius: 50%;
+    text-decoration: none;
+}
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #ffffff;
+    color: black;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  /* POP UPs styles */
+  .winnerColor {
+    background-color: #f06e57;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.dim {
+    color: rgba(0, 0, 0, 0.5);
 }
