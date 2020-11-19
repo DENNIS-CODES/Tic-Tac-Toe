@@ -5,8 +5,9 @@ A project to practice Factory Functions and the module pattern with IIFE
 
 
 # SCREENSHOTS
-![tok](https://user-images.githubusercontent.com/65861136/99663980-832ae280-2a78-11eb-85c4-476ee8a2305d.png)
-![toe](https://user-images.githubusercontent.com/65861136/99663995-87570000-2a78-11eb-9f2f-49d6774e9c2a.png)
+![toe](https://user-images.githubusercontent.com/65861136/99727279-c745d380-2ac8-11eb-931e-a4ca63280a71.png)
+![tok](https://user-images.githubusercontent.com/65861136/99727290-cb71f100-2ac8-11eb-8f64-5399d69ec32f.png)
+![twi](https://user-images.githubusercontent.com/65861136/99727294-cc0a8780-2ac8-11eb-93c2-e6b341216ad7.png)
 
 ## REQUIREMENTS
 1. Set up your project with a HTML, CSS and Javascript files and get the Git repo all set up.
@@ -24,7 +25,7 @@ A project to practice Factory Functions and the module pattern with IIFE
 
 
 ## BUILD WITH
--JavaScript
+- JavaScript
 - HTML
 - CSS
 ## LIVE DEMO
@@ -37,7 +38,7 @@ A project to practice Factory Functions and the module pattern with IIFE
 
 - GitHub: [@DENNIS-CODES](https://github.com/DENNIS-CODES)
 - Twitter: [@DENNISM44052159](https://twitter.com/DENNISM44052159)
-- Linkedin: [@Dennis-mwangi](https://www.linkedin.com/in/dennis-mwangi-14b7a01b2/)
+- Linkedin: [@DENNIS-MWANGI](https://www.linkedin.com/in/dennis-mwangi-14b7a01b2/)
 
 
 ## 🤝 Contributing
