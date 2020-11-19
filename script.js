@@ -363,7 +363,6 @@
                               msg.innerHTML = `Winner is '${turn.type}' player`;
 
                               document.querySelector('#resetSec').classList.remove('displayNone');
-                              document.querySelector('#footer').classList.remove('displayNone');
                               document.querySelector('#overlay').classList.add('overlay');
 
                               break outer;
@@ -383,7 +382,6 @@
                               msg.innerHTML = `Winner is '${turn.type}' player`;
 
                               document.querySelector('#resetSec').classList.remove('displayNone');
-                              document.querySelector('#footer').classList.remove('displayNone');
                               document.querySelector('#overlay').classList.add('overlay');
 
                               break outer;
