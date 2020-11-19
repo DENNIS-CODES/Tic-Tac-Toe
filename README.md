@@ -22,5 +22,38 @@ A project to practice Factory Functions and the module pattern with IIFE
 5. Build the logic that checks for when the game is over! Should check for 3-in-a-row and a tie.
 6. Clean up the interface to allow players to put in their names, include a button to start/restart the game and add a display element that congratulates the winning player!
 
+
+## BUILD WITH
+-JavaScript
+- HTML
+- CSS
 ## LIVE DEMO
 [CLICK TO PLAY](https://Tic-Tac-Toe.denniscodes.repl.co)
+
+
+## Author
+
+👤 **Dennis Mwangi**
+
+- GitHub: [@DENNIS-CODES](https://github.com/DENNIS-CODES)
+- Twitter: [@DENNISM44052159](https://twitter.com/DENNISM44052159)
+- Linkedin: [@Dennis-mwangi](https://www.linkedin.com/in/dennis-mwangi-14b7a01b2/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- @odin challenge
+
+## 📝 License
+
+ GPL-3.0 License
