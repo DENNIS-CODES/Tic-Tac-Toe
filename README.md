@@ -28,7 +28,7 @@ A project to practice Factory Functions and the module pattern with IIFE
 - HTML
 - CSS
 ## LIVE DEMO
-[CLICK TO PLAY]https://dennis-codes.github.io/Tic-Tac-Toe/)
+[CLICK TO PLAY](https://dennis-codes.github.io/Tic-Tac-Toe/)
 
 
 ## Author
