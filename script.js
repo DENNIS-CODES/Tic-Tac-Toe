@@ -422,7 +422,6 @@
               let msg = document.querySelector("#message");
               msg.innerHTML = "DRAW!";
               document.querySelector('#resetSec').classList.remove('displayNone');
-              document.querySelector('#footer').classList.remove('displayNone');
               document.querySelector('#overlay').classList.add('overlay');
           }
       }
